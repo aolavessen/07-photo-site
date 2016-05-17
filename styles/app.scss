@@ -6,108 +6,89 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'box-sizing';
 @import 'variables';
 
-.body {
-  // background-color: green;
-  margin: 0;
-  font-family: sans-serif;
-
-}
-
-.top-container {
-  display: flex;
-  flex-direction: column;
+body {
+  max-width: 100vw;
   margin: auto;
-  // max-width: $max-content-width;
-  // background-color: pink;
-  background-color: $brand-dark-gray;
+  background: $brand-dark-gray;
+  color: $brand-light-gray;
 }
 
-.top-nav {
+.container {
+  max-width: $max-content-width;
+  margin: auto;
+}
+
+.sub__header {
+  position: relative;
+  width: 6.3rem;
+  margin: auto;
 
 }
 
+.cage {
+  border-radius: 50%;
+}
 
-.top-nav__row {
-  width: 100%;
-  // background-color: orange;
+.triangle {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  margin: 0;
+  color: $brand-red;
+font-size: 2rem;
+text-align: middle;
+}
+
+.landscape {
+margin: 0;
+color: $brand-white;
+position: absolute;
+top: 80%;
+left: 13%;
+font-size: 1.2rem;
+
+}
+
+.nav {
   display: flex;
   justify-content: space-between;
-
-
+  margin: $gutter;
 }
 
-.top-left-nav {
+.nav__left {
   display: flex;
-  align-items: center;
-
+  justify-content: space-between;
+  width: 17rem;
 }
 
-.nav-item {
+.logo {
+font-size: 2rem;
+margin: 0;
+align-self: center;
+}
+
+.name {
+  color: $brand-white;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: space-between;
+  width: 10rem;
+  align-items: center;
+}
+
+.about {
   color: $brand-light-gray;
-  font-size: 1rem;
-
-  &__icon {
-    margin: 0.5rem;
-  }
-
-  &__name {
-    margin: 0;
-    color: $brand-white;
-  }
-
-  &__desc {
-    margin: 0.5rem;
-  }
-
-  &__right {
-    margin: 0 $gutter;
-
-    &:hover {
-      color: $brand-red;
-      cursor: pointer;
-    }
-  }
-
 }
 
-
-
-
-
-.photog-name {
-
+.work {
+  color: $brand-red;
 }
 
-.top-right-nav {
-  display: flex;
-  align-items: center;
-
+.contact {
+  color: $brand-light-gray;
 }
-
-.nav-item__right {
-
-}
-
-.header-block {
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  font-size: 20px;
-
-  // background-color: blue;
-
-}
-
-.header-block__photo {
-  // border-radius: 50%;
-
-}
-
-.header-block__photo-text {
-
-}
-
 .boss-container {
   margin: auto;
   gutter:$gutter;
