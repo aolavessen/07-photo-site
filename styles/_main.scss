@@ -3,19 +3,24 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .row {
   display: flex;
   overflow: auto;
-  width: 117%;
+  // width: 75%;
   margin-top: $gutter;
 }
 
 .main__article {
-  display: flex;
-  padding-left: 26vw
+   display: flex;
+   padding-left: 5vw
+}
+
+.pic-and-author {
+
+
 }
 
 .author-date {
@@ -29,6 +34,7 @@ margin-top: 1rem;
 }
 
 .pic-details {
+  flex-basis: 20%;
 list-style-type: none;
 padding-left: $gutter;
 
