@@ -6,20 +6,25 @@ main {
   margin-top: 1rem;
 }
 
-.row {
-  display: flex;
-  overflow: auto;
-  // width: 75%;
-  margin-top: $gutter;
-}
+// .row {
+//   display: flex;
+//   // justify-content: flex-end;
+//   // overflow: auto;
+//   // width: 75%;
+//   margin-top: $gutter;
+// }
 
 .main__article {
    display: flex;
-   padding-left: 5vw
+   justify-content: flex-end;
+   margin: auto;
+
+  //  padding-left: 5vw
 }
 
 .pic-and-author {
-
+  flex-basis: calc(60% - 2rem);
+  justify-content: flex-end;
 
 }
 
@@ -35,8 +40,8 @@ main {
 
 .pic-details {
   flex-basis: 20%;
-list-style-type: none;
-padding-left: $gutter;
+  list-style-type: none;
+  padding-left: $gutter;
 
 }
 
