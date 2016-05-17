@@ -8,6 +8,9 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
 body {
   max-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   margin: auto;
   background: $brand-dark-gray;
   color: $brand-light-gray;
@@ -25,7 +28,7 @@ body {
 
 }
 
-.cage {
+.murray {
   border-radius: 50%;
 }
 
@@ -90,10 +93,20 @@ align-self: center;
   color: $brand-light-gray;
 }
 
-main {
-margin-top: 3rem;
+.nav_links_icon {
+  display: none;
 }
 
+main {
+  margin-top: 1rem;
+  }
+
+  .row {
+    display: flex;
+    overflow: auto;
+    width: 117%;
+    margin-top: $gutter;
+  }
 .main__article {
   display: flex;
   padding-left: 26vw
@@ -107,6 +120,11 @@ margin-top: 3rem;
 .author {
   color: $brand-white;
   margin-right: $gutter;
+  margin-top: 0;
+}
+
+.date {
+  margin-top: 0.4rem;
 }
 
 .pic-details {
@@ -129,7 +147,8 @@ padding-left: $gutter;
 
 .end-of-main {
   display: flex;
-  margin-left: 26vw;
+  width: 75%;
+  justify-content: center;
 }
 
 .anders {
@@ -140,40 +159,14 @@ padding-left: $gutter;
   margin-left: 1rem;
 }
 
-.bottom-container {
-  margin: auto;
-  gutter:$gutter;
-   max-width: $max-content-width;
-  background-color: $brand-dark-gray;
-}
-
-
-.footer-container {
+footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: $brand-light-gray;
-}
-
-.footer-title {
-  color: $brand-white;
 
 }
 
-.bottom-row {
+.footer-links {
   display: flex;
-  justify-content: space-between;
-}
-
-.bottom-row__pic {
-  width: 50%;
-
-  &__title {
-    text-align: center;
-  }
-
-  &:hover {
-    cursor: pointer;
-  }
-
+  flex-direction: row;
 }
