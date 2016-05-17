@@ -89,80 +89,61 @@ align-self: center;
 .contact {
   color: $brand-light-gray;
 }
-.boss-container {
-  margin: auto;
-  gutter:$gutter;
-  // max-width: $max-content-width;
-  background-color: $brand-dark-gray;
 
+main {
+margin-top: 3rem;
 }
 
-.container {
-  max-width: $max-content-width;
-  background-color: $brand-dark-gray;
-
+.main__article {
+  display: flex;
+  padding-left: 26vw
 }
 
-.row {
-  // gutter: $gutter;
-  // background-color: green;
-  font-size: 0.65rem;
-  max-width: $max-content-width;
+.author-date {
   display: flex;
 
-  flex-wrap: wrap;
-  // justify-content: center;
+}
+
+.author {
+  color: $brand-white;
+  margin-right: $gutter;
+}
+
+.pic-details {
+list-style-type: none;
+padding-left: $gutter;
 
 }
 
-.column-one {
-
+.pic-details__item {
+  margin-bottom: .3rem;
 }
 
-.row-pic {
-  width: 100%;
-  // background-color: purple;
-  // display: flex;
-  // flex-direction: column;
-
-
-
-
-}
-
-.photo-dimensions {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-
-
-}
-
-.camera-title {
+.pic-details__item__red {
   color: $brand-red;
 }
 
-.photo-dimensions__text {
-
-}
-
-.photo-name {
-
-}
-
-.timeanddatestamp {
-
-}
-
-.dimension-box {
+.camera__model {
   display: flex;
-  flex-wrap: wrap;
+}
+
+.end-of-main {
+  display: flex;
+  margin-left: 26vw;
+}
+
+.anders {
+  color: $brand-white;
+}
+
+.olavessen {
+  margin-left: 1rem;
 }
 
 .bottom-container {
   margin: auto;
   gutter:$gutter;
-  // max-width: $max-content-width;
+   max-width: $max-content-width;
   background-color: $brand-dark-gray;
 }
 
