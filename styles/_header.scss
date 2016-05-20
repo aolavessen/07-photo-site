@@ -10,9 +10,10 @@
 }
 
 .triangle {
+  transform: translate(-50% );
   position: absolute;
-  top: 15%;
-  left: 31%;
+  top: 25%;
+  left: 50%;
   margin: 0;
   color: $brand-red;
 font-size: 2rem;
