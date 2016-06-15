@@ -1,0 +1,31 @@
+.sub__header {
+  position: relative;
+  width: 6.3rem;
+  margin: auto;
+
+}
+
+.murray {
+  border-radius: 50%;
+}
+
+.triangle {
+  transform: translate(-50% );
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  margin: 0;
+  color: $brand-red;
+font-size: 2rem;
+text-align: middle;
+}
+
+.landscape {
+margin: 0;
+color: $brand-white;
+position: absolute;
+top: 80%;
+left: 2%;
+font-size: 1.2rem;
+
+}

@@ -1,0 +1,77 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+// .row {
+//   display: flex;
+//   // justify-content: flex-end;
+//   // overflow: auto;
+//   // width: 75%;
+//   margin-top: $gutter;
+// }
+
+.main__article {
+   display: flex;
+   justify-content: flex-end;
+   margin: auto;
+
+  //  padding-left: 5vw
+}
+
+.pic-and-author {
+  flex-basis: calc(60%);
+  justify-content: flex-end;
+
+
+}
+
+.author-date {
+  display: flex;
+  padding-left: 2rem;
+
+}
+
+.author {
+  color: $brand-white;
+  margin-right: $gutter;
+}
+
+.pic-details {
+  flex-basis: 20%;
+  list-style-type: none;
+  padding-left: $gutter;
+
+}
+
+.pic-details__item {
+  margin-bottom: .3rem;
+  padding-left: 2rem;
+}
+
+.pic-details__item__red {
+  padding-left: 0.5rem;
+  color: $brand-red;
+}
+
+.camera__model {
+  display: flex;
+}
+
+.end-of-main {
+  display: flex;
+  margin-left: 26vw;
+
+}
+
+.anders {
+  color: $brand-white;
+}
+
+.olavessen {
+  margin-left: 1rem;
+
+}
